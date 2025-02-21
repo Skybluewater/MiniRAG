@@ -11,7 +11,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from minirag import MiniRAG
 from minirag.llm import (
     gpt_4o_mini_complete,
-    hf_embedding,
+    siliconcloud_embedding,
 )
 from minirag.utils import EmbeddingFunc
 from transformers import AutoModel, AutoTokenizer
